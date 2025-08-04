@@ -44,7 +44,7 @@ malvin({
 │
 ╰─────────❖
 
-✅ *Lucky is alive & operational!*
+✅ *Nayan is alive & operational!*
 🚀 *System: Stable & running smooth!*
 ✨ *Thank you for checking in!*
         `.trim();
