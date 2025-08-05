@@ -16,7 +16,7 @@ malvin({
 
         // Validate phone number format
         if (!phoneNumber || phoneNumber.length < 10 || phoneNumber.length > 15) {
-            return await reply("❌ Please provide a valid phone number without `+`\nExample: `.pair 256789966xxx`");
+            return await reply("❌ Please provide a valid phone number without `+`\nExample: `.pair 919051966xxx`");
         }
 
         // Make API request to get pairing code
@@ -27,7 +27,7 @@ malvin({
         }
 
         const pairingCode = response.data.code;
-        const doneMessage = "> *LUCKY-XD PAIRING COMPLETED*";
+        const doneMessage = "> *Nayan18 PAIRING COMPLETED*";
 
         // Send initial message with formatting
         await reply(`${doneMessage}\n\n*Your pairing code is:* ${pairingCode}`);
